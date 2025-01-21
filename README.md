@@ -2,6 +2,8 @@
 
 ## Database Schema
 
+![imagen1](./images/pic1.png)
+
 ### `movies`
 - **movie_id** (INT, PRIMARY KEY, AUTO_INCREMENT) - Unique identifier for each movie.
 - **title** (VARCHAR(255)) - Title of the movie.
