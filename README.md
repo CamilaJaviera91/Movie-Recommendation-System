@@ -2,18 +2,7 @@
 
 ## Database Schema
 
-### Schema 1.0
-- In the `movie` table there is a field named **genre**, so we don't need the tables:
-    - `genres`
-    - `movie_genre`
-
-![imagen1](./images/pic1.png)
-
-### Schema 2.0
-
-![imagen2](./images/pic2.png)
-
-### Schema 3.0
+### Schema 
 
 ![imagen3](./images/pic3.png)
 
@@ -38,23 +27,7 @@
 - **movie_id** (INT, FOREIGN KEY) - Reference to the rated movie.
 - **rating** (DECIMAL(3, 2)) - Rating given to the movie (e.g., from 1.0 to 5.0).
 - **rating_date** (DATETIME) - Date the rating was made.
-```
-Deleted tables
 
-watchlist
-- watchlist_id (INT, PRIMARY KEY, AUTO_INCREMENT) - Unique identifier for each entry in the - watchlist.
-- user_id (INT, FOREIGN KEY) - Reference to the user who added the movie.
-- movie_id (INT, FOREIGN KEY) - Reference to the movie added to the list.
-- added_date (DATETIME) - Date the movie was added to the list.
-
-genres
-- genre_id (INT, PRIMARY KEY, AUTO_INCREMENT) - Unique identifier for each genre.
-- genre_name (VARCHAR(100)) - Name of the genre.
-
-movie_genres
-- movie_id (INT, FOREIGN KEY) - Reference to the movie.
-- genre_id (INT, FOREIGN KEY) - Reference to the genre.
-```
 ## Relationships Between Tables
 1. `movies` and `ratings` are related through `movie_id`, allowing storage of ratings given to each movie.
 2. `users` and `ratings` are related through `user_id`, tracking which user gave a rating.
