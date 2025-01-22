@@ -2,16 +2,21 @@
 
 ## Database Schema
 
-### First Schema
+### Schema 1.0
 - In the `movie` table there is a field named **genre**, so we don't need the tables:
     - `genres`
     - `movie_genre`
 
 ![imagen1](./images/pic1.png)
 
-### New Schema
+### Schema 2.0
 
 ![imagen2](./images/pic2.png)
+
+### Schema 3.0
+
+![imagen3](./images/pic3.png)
+
 
 ### `movies`
 - **movie_id** (INT, PRIMARY KEY, AUTO_INCREMENT) - Unique identifier for each movie.
