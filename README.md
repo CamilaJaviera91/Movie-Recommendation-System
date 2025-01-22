@@ -1,5 +1,7 @@
 # Movie Recommendation System
 
+Development of a recommendation system using a movie dataset. Store the information in PostgreSQL and use Python to build a machine learning model that suggests movies based on user preferences, utilizing PostgreSQL, Pandas, and Scikit-learn tools.
+
 ## Database Schema
 
 ### Schema 
