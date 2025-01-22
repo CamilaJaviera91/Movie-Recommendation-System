@@ -15,7 +15,7 @@ movies = list(range(1, 317))  # Movie IDs from 1 to 316
 rating_ids = random.sample(range(1000, 9999), num_entries)  # Unique IDs
 user_ids = random.choices(users, k=num_entries)  # Allow repetitions
 movie_ids = random.choices(movies, k=num_entries)  # Allow repetitions
-ratings = random.choices(range(1, 11), k=num_entries)  # Ratings between 1 and 10
+ratings = random.choices(range(1, 6), k=num_entries)  # Ratings between 1 and 10
 rating_dates = [fake.date_between(start_date='-10y', end_date='today') for _ in range(num_entries)]
 
 # Combine the data into a list of tuples
