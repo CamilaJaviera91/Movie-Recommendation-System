@@ -4,10 +4,28 @@ Development of a recommendation system using a movie dataset. Store the informat
 
 ## Database Schema
 
+## <u>Connection</u>
+
+1. In this case, we are going to use DBeaver, so the first thing we need to do is create a new connection.
+- As shown in the picture, we need to configure the following settings:
+    - **<u>Host</u>:** localhost
+    - **<u>Database</u>:** postgres
+    - **<u>Port</u>:** 5432
+    - **<u>Username</u>:** postgres
+    - **<u>Password</u>:** _YOUR PASSWORD_
+<br>
+
+![Clothing Store 1](./images/pic4.png)
+
+2. After setting the parameters, we should test the connection to ensure it works before applying the configuration.
+
+<br>
+
+![Clothing Store 1](./images/pic5.jpg)
+
 ### Schema 
 
 ![imagen3](./images/pic3.png)
-
 
 ### `movies`
 - **movie_id** (INT, PRIMARY KEY, AUTO_INCREMENT) - Unique identifier for each movie.
