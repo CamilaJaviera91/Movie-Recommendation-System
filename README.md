@@ -54,3 +54,23 @@ Development of a recommendation system using a movie dataset. Store the informat
 
 ## Use in a Recommendation System
 - **Collaborative Filtering:** Use the `ratings` table to find similar behavior patterns among different users.
+
+## <u>Documentation</u>
+
+- [Postgres Documentation](https://www.postgresql.org/docs/)
+- [Faker Documentation](https://faker.readthedocs.io/en/master/)
+- [Random Documentation](https://docs.python.org/3/library/random.html)
+- [Psycopg Documentation](https://www.psycopg.org/docs/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [ReportLab Documentation](https://www.reportlab.com/docs/reportlab-userguide.pdf)
+
+## <u>Sources</u>
+
+- [DBeaver Community](https://dbeaver.io/download/)
+- [Install Docker Desktop on Linux](https://docs.docker.com/desktop/setup/install/linux/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Alacritty](https://github.com/alacritty/alacritty)
+
+## <u>Contributions</u>
+
+Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality.
