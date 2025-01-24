@@ -32,7 +32,7 @@ def query_movies_rating():
                             m.release_year as year,
                             m.genre as genre,
                             m.duration as minutes,
-                            count(u.user_id) as qusers,
+                            count(u.user_id) as users,
                             round(avg(r.rating), 0) as rating
                         from postgres.movie_recommendation.movies m 
                         join postgres.movie_recommendation.ratings r on r.movie_id = m.movie_id 
@@ -40,7 +40,10 @@ def query_movies_rating():
                         group by m.title,
                             m.release_year,
                             m.genre,
-                            m.duration;
+                            m.duration
+                        order by 
+                            round(avg(r.rating), 0) desc,
+                            count(u.user_id) desc;
         ''')
 
         records = cursor.fetchall()  # Fetch all the results
