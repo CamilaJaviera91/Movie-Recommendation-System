@@ -56,8 +56,10 @@ Development of a recommendation system using a movie dataset. Store the informat
 - **Collaborative Filtering:** Use the `ratings` table to find similar behavior patterns among different users.
 
 ## Data Analysis
-### Rating vs genre
+### Average Rating by genre (table)
 ![table 1](./images/pic6.png)
+### Average Rating by genre (graphic)
+![graphic 1](./images/pic7.png)
 
 ## <u>Documentation</u>
 
