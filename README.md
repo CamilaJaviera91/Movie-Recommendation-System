@@ -55,6 +55,10 @@ Development of a recommendation system using a movie dataset. Store the informat
 ## Use in a Recommendation System
 - **Collaborative Filtering:** Use the `ratings` table to find similar behavior patterns among different users.
 
+## Data Analysis
+### Rating vs genre
+![table 1](./images/pic6.png)
+
 ## <u>Documentation</u>
 
 - [Postgres Documentation](https://www.postgresql.org/docs/)
