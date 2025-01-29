@@ -60,6 +60,8 @@ Development of a recommendation system using a movie dataset. Store the informat
 ![table 1](./images/pic6.png)
 ### Average Rating by genre (graphic)
 ![graphic 1](./images/pic7.png)
+### Predictions vs Actual Values (graphic)
+![graphic 2](./images/pic8.png)
 
 ## <u>Documentation</u>
 
