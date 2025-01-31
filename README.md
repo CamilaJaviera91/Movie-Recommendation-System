@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-Development of a recommendation system using a movie dataset. Store the information in PostgreSQL and use Python to build a machine learning model that suggests movies based on user preferences, utilizing PostgreSQL, Pandas, and Scikit-learn tools.
+This repository contains the development of a recommendation system using a movie dataset. It stores information in PostgreSQL and utilizes Python to build a machine learning model that suggests movies based on user preferences, leveraging PostgreSQL, Pandas, and Scikit-learn.
 
 ## Database Schema
 
@@ -15,17 +15,17 @@ Development of a recommendation system using a movie dataset. Store the informat
     - **<u>Password</u>:** _YOUR PASSWORD_
 <br>
 
-![Clothing Store 1](./images/pic4.png)
+![movies 1](./images/pic4.png)
 
 2. After setting the parameters, we should test the connection to ensure it works before applying the configuration.
 
 <br>
 
-![Clothing Store 1](./images/pic5.jpg)
+![movies 2](./images/pic5.jpg)
 
 ### Schema 
 
-![imagen3](./images/pic3.png)
+![movies 3](./images/pic3.png)
 
 ### `movies`
 - **movie_id** (INT, PRIMARY KEY, AUTO_INCREMENT) - Unique identifier for each movie.
@@ -57,11 +57,11 @@ Development of a recommendation system using a movie dataset. Store the informat
 
 ## Data Analysis
 ### Average Rating by genre (table)
-![table 1](./images/pic6.png)
+![movies 4](./images/pic6.png)
 ### Average Rating by genre (graphic)
-![graphic 1](./images/pic7.png)
+![movies 5](./images/pic7.png)
 ### Predictions vs Actual Values (graphic)
-![graphic 2](./images/pic8.png)
+![movies 6](./images/pic8.png)
 
 ## <u>Documentation</u>
 
