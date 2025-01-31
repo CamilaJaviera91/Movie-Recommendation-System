@@ -10,6 +10,10 @@ import locale
 import pandas as pd
 
 def query_genre_rating():
+    """
+    Queries the movie recommendation database to retrieve genre-based statistics,
+    including the number of movies, number of users, and average rating per genre.
+    """
     # Set the locale to Spanish (Spain) to ensure proper formatting
     try:
         locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
@@ -25,43 +29,43 @@ def query_genre_rating():
     try:
         cursor = con.cursor()  # Create a cursor to interact with the database
 
-        # Execute the SQL query to retrieve the sales data
+        # Execute the SQL query to retrieve the genre-based statistics
         cursor.execute('''
-                        select 
+                        SELECT 
                             genre,
                             movies,
                             users, 
                             rating
-                        from 
-                        (select 
-                            m.genre as genre,
-                            count(distinct m.title) as movies,
-                            count(distinct u.user_id) as users,
-                            round(avg(r.rating), 1) as rating
-                        from postgres.movie_recommendation.movies m 
-                        join postgres.movie_recommendation.ratings r on r.movie_id = m.movie_id 
-                        join postgres.movie_recommendation.users u on u.user_id = r.user_id 
-                        group by m.genre)
-                        where users > 10
-                        order by rating desc;
+                        FROM 
+                        (SELECT 
+                            m.genre AS genre,
+                            COUNT(DISTINCT m.title) AS movies,  -- Count distinct movie titles per genre
+                            COUNT(DISTINCT u.user_id) AS users, -- Count distinct users who rated movies
+                            ROUND(AVG(r.rating), 1) AS rating  -- Calculate the average rating rounded to 1 decimal
+                        FROM postgres.movie_recommendation.movies m 
+                        JOIN postgres.movie_recommendation.ratings r ON r.movie_id = m.movie_id 
+                        JOIN postgres.movie_recommendation.users u ON u.user_id = r.user_id 
+                        GROUP BY m.genre)
+                        WHERE users > 10  -- Filter out genres with less than 10 users
+                        ORDER BY rating DESC;  -- Sort genres by average rating in descending order
         ''')
 
-        records = cursor.fetchall()  # Fetch all the results
+        records = cursor.fetchall()  # Fetch all the results from the query
 
-        # Convert results into a DataFrame for better visualization.
-        columns = [desc[0] for desc in cursor.description]
-        df = pd.DataFrame(records, columns=columns)
+        # Convert results into a DataFrame for better visualization and manipulation.
+        columns = [desc[0] for desc in cursor.description]  # Extract column names from query result
+        df = pd.DataFrame(records, columns=columns)  # Create DataFrame
 
-        print(df)
+        print(df)  # Print DataFrame to console
 
-        return df
+        return df  # Return DataFrame
 
     except psycopg2.Error as e:
-        print(f"Error executing the query: {e}")
+        print(f"Error executing the query: {e}")  # Handle query execution errors
         return None
 
     finally:
-        # Close cursor and connection safely
+        # Close cursor and connection safely to avoid resource leaks
         cursor.close()
         con.close()
         print("Connection closed successfully.")
