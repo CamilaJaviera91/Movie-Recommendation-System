@@ -62,6 +62,8 @@ This repository contains the development of a recommendation system using a movi
 ![movies 5](./images/pic7.png)
 ### Predictions vs Actual Values (graphic)
 ![movies 6](./images/pic8.png)
+### Decision Tree for High Rating Prediction (table)
+![movies 7](./images/pic9.png)
 
 ## <u>Documentation</u>
 
