@@ -18,7 +18,7 @@ Ensure you have the following installed:
 
 - **DBeaver** (optional, for database visualization: [Download](https://dbeaver.io/download/))
 
-## Database Schema
+## 🗄️ Database Schema
 
 ## <u>Connection</u>
 
