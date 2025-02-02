@@ -110,7 +110,7 @@ LIMIT 10;
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [ReportLab Documentation](https://www.reportlab.com/docs/reportlab-userguide.pdf)
 
-## <u>Sources</u>
+## 🔗 Sources
 
 - [DBeaver Community](https://dbeaver.io/download/)
 - [Install Docker Desktop on Linux](https://docs.docker.com/desktop/setup/install/linux/)
