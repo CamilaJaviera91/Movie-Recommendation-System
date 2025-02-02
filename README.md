@@ -101,7 +101,7 @@ LIMIT 10;
 ### Decision Tree for High Rating Prediction (table)
 ![movies 7](./images/pic9.png)
 
-## <u>Documentation</u>
+## 📚 Documentation
 
 - [Postgres Documentation](https://www.postgresql.org/docs/)
 - [Faker Documentation](https://faker.readthedocs.io/en/master/)
