@@ -117,6 +117,6 @@ LIMIT 10;
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Alacritty](https://github.com/alacritty/alacritty)
 
-## <u>Contributions</u>
+## 🤝 Contributions
 
 Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality.
