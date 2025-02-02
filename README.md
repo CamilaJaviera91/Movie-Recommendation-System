@@ -15,6 +15,9 @@ Ensure you have the following installed:
 ```
   pip install pandas scikit-learn psycopg2 faker matplotlib seaborn
 ```
+
+- **DBeaver** (optional, for database visualization: [Download](https://dbeaver.io/download/))
+
 ## Database Schema
 
 ## <u>Connection</u>
