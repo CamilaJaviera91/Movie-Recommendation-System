@@ -68,8 +68,12 @@ Ensure you have the following installed:
 1. `movies` and `ratings` are related through `movie_id`, allowing storage of ratings given to each movie.
 2. `users` and `ratings` are related through `user_id`, tracking which user gave a rating.
 
-## Use in a Recommendation System
-- **Collaborative Filtering:** Use the `ratings` table to find similar behavior patterns among different users.
+## 🤖 Use in a Recommendation System
+- **Collaborative Filtering:** Uses ratings data to identify user preferences.
+- **User-Based vs Item-Based Filtering:**
+    - **User-based:** Finds similar users based on ratings.
+    - **Item-based:** Suggests similar movies based on ratings.
+- **Hybrid Approach:** Combines genre, director, and rating info.
 
 ## Data Analysis
 ### Average Rating by genre (table)
