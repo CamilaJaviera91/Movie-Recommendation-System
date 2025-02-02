@@ -1,7 +1,20 @@
-# Movie Recommendation System
+# 🎬 Movie Recommendation System  
 
-This repository contains the development of a recommendation system using a movie dataset. It stores information in PostgreSQL and utilizes Python to build a machine learning model that suggests movies based on user preferences, leveraging PostgreSQL, Pandas, and Scikit-learn.
+This repository contains the development of a recommendation system using a movie dataset. It stores information in **PostgreSQL** and utilizes **Python** to build a machine learning model that suggests movies based on user preferences, leveraging **PostgreSQL, Pandas, and Scikit-learn**.  
 
+---
+
+## 🚀 Installation & Setup  
+
+### Prerequisites  
+Ensure you have the following installed:  
+- **PostgreSQL** ([Download](https://www.postgresql.org/download/))  
+- **Python 3.x** ([Download](https://www.python.org/downloads/))  
+- **Required Python Libraries**:  
+
+```
+  pip install pandas scikit-learn psycopg2 faker matplotlib seaborn
+```
 ## Database Schema
 
 ## <u>Connection</u>
