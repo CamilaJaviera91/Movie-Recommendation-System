@@ -91,7 +91,7 @@ ORDER BY avg_rating DESC
 LIMIT 10;
 ```
 
-## Data Analysis
+## 📊 Data Analysis
 ### Average Rating by genre (table)
 ![movies 4](./images/pic6.png)
 ### Average Rating by genre (graphic)
