@@ -119,4 +119,5 @@ LIMIT 10;
 
 ## 🤝 Contributions
 
-Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality.
+Contributions are welcome! 🎉 <br>
+Feel free to submit issues or pull requests to enhance the functionality.
