@@ -121,3 +121,11 @@ LIMIT 10;
 
 Contributions are welcome! 🎉 <br>
 Feel free to submit issues or pull requests to enhance the functionality.
+
+## 📝 Contribution Guidelines
+1. Fork the repository.
+2. Create a feature branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m "Added new feature").
+4. Push to the branch (git push origin feature-branch).
+5. Open a Pull Request.
+6. For questions or suggestions, open an issue or contact me via email. 🚀
