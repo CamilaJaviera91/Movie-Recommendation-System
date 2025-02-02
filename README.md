@@ -75,6 +75,22 @@ Ensure you have the following installed:
     - **Item-based:** Suggests similar movies based on ratings.
 - **Hybrid Approach:** Combines genre, director, and rating info.
 
+## 🛠 Example Query for Recommendations
+
+```
+SELECT m.title, AVG(r.rating) AS avg_rating
+FROM ratings r
+JOIN movies m ON r.movie_id = m.movie_id
+WHERE r.user_id IN (
+    SELECT DISTINCT r1.user_id
+    FROM ratings r1
+    WHERE r1.movie_id = <USER_LAST_WATCHED_MOVIE>
+)
+GROUP BY m.title
+ORDER BY avg_rating DESC
+LIMIT 10;
+```
+
 ## Data Analysis
 ### Average Rating by genre (table)
 ![movies 4](./images/pic6.png)
