@@ -39,7 +39,7 @@ Ensure you have the following installed:
 
 ![movies 2](./images/pic5.jpg)
 
-### Schema 
+### 📌 Schema Diagram 
 
 ![movies 3](./images/pic3.png)
 
