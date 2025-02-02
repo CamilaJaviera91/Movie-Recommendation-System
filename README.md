@@ -64,7 +64,7 @@ Ensure you have the following installed:
 - **rating** (DECIMAL(3, 2)) - Rating given to the movie (e.g., from 1.0 to 5.0).
 - **rating_date** (DATETIME) - Date the rating was made.
 
-## Relationships Between Tables
+## 🔗 Relationships Between Tables
 1. `movies` and `ratings` are related through `movie_id`, allowing storage of ratings given to each movie.
 2. `users` and `ratings` are related through `user_id`, tracking which user gave a rating.
 
