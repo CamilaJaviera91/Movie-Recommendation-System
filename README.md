@@ -125,10 +125,12 @@ LIMIT 10;
 ![movies 4](./images/pic6.png)
 ### Average Rating by genre (graphic)
 ![movies 5](./images/pic7.png)
+### Feature Correlation Heatmap (graphic)
+![movies 6](./images/pic10.png)
 ### Predictions vs Actual Values (graphic)
-![movies 6](./images/pic8.png)
+![movies 7](./images/pic8.png)
 ### Decision Tree for High Rating Prediction (table)
-![movies 7](./images/pic9.png)
+![movies 8](./images/pic9.png)
 
 ## 🛡️ Security & Privacy
 
