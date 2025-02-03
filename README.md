@@ -123,6 +123,14 @@ LIMIT 10;
 ### Decision Tree for High Rating Prediction (table)
 ![movies 7](./images/pic9.png)
 
+## 🛡️ Security & Privacy
+
+- User passwords are stored securely using hashing (e.g., bcrypt).
+
+- Database access is restricted to authorized users.
+
+- Sensitive user information is never exposed in raw format.
+
 ## 📚 Documentation
 
 - [Postgres Documentation](https://www.postgresql.org/docs/)
