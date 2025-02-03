@@ -9,7 +9,7 @@ import psycopg2  # PostgreSQL database adapter
 import locale    # For setting regional settings
 import pandas as pd  # For handling data in tabular format
 
-def query_movies_rating():
+def positive_vs_negative_reviews():
     """
     Queries the movie recommendation database to retrieve statistics about movies,
     including title, release year, genre, number of positive/negative reviews, 
