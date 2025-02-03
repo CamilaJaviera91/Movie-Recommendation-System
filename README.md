@@ -2,7 +2,16 @@
 
 This repository contains the development of a recommendation system using a movie dataset. It stores information in **PostgreSQL** and utilizes **Python** to build a machine learning model that suggests movies based on user preferences, leveraging **PostgreSQL, Pandas, and Scikit-learn**.  
 
----
+
+## 🎯 Project Goals
+
+- Develop an efficient recommendation system for movies based on user preferences.
+
+- Utilize collaborative and content-based filtering techniques.
+
+- Store and process data using PostgreSQL for scalability.
+
+- Perform data analysis and visualization to understand rating trends.
 
 ## 🚀 Installation & Setup  
 
