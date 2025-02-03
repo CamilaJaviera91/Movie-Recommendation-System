@@ -131,6 +131,14 @@ LIMIT 10;
 
 - Sensitive user information is never exposed in raw format.
 
+## 📌 Future Improvements
+
+- Implement deep learning for better recommendations.
+
+- Improve handling of cold-start problems for new users/movies.
+
+- Integrate real-time recommendations using streaming data.
+
 ## 📚 Documentation
 
 - [Postgres Documentation](https://www.postgresql.org/docs/)
