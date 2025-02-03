@@ -56,8 +56,6 @@ def query_genre_rating():
         columns = [desc[0] for desc in cursor.description]  # Extract column names from query result
         df = pd.DataFrame(records, columns=columns)  # Create DataFrame
 
-        print(df)  # Print DataFrame to console
-
         return df  # Return DataFrame
 
     except psycopg2.Error as e:
