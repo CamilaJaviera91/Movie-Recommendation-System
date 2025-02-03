@@ -61,8 +61,6 @@ def query_movies_rating():
         # Convert results into a Pandas DataFrame for easy analysis and visualization
         df = pd.DataFrame(records, columns=columns)
 
-        print(df)  # Print the DataFrame to the console for verification
-
         return df  # Return the DataFrame for further use in the program
 
     except psycopg2.Error as e:
