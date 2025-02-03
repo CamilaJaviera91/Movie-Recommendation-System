@@ -13,7 +13,7 @@ if df is None:
     raise ValueError("query_genre_rating() returned None. Check your function implementation.")
 
 # Compute the correlation matrix of the dataset
-corr_matrix = df.corr()  # Calculates Pearson correlation coefficients between numerical features
+corr_matrix = df.select_dtypes(include=['number']).corr()  # Calculates Pearson correlation coefficients between numerical features
 
 # Create a heatmap to visualize feature correlations
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt=".2f")  
