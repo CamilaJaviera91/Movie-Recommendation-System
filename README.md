@@ -112,6 +112,13 @@ GROUP BY m.title
 ORDER BY avg_rating DESC
 LIMIT 10;
 ```
+## 📊 Model Evaluation Metrics
+
+- **RMSE (Root Mean Squared Error)** - Measures prediction accuracy.
+
+- **Precision@K, Recall@K** - Evaluate recommendation relevance.
+
+- **Confusion Matrix** - Analyzes classification errors.
 
 ## 📊 Data Analysis
 ### Average Rating by genre (table)
