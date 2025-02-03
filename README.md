@@ -13,6 +13,19 @@ This repository contains the development of a recommendation system using a movi
 
 - Perform data analysis and visualization to understand rating trends.
 
+## 📂 Folder Structure
+
+```
+├── sources/
+│   ├── queries/          # SQL queries for fetching data
+│   ├── models/           # Machine learning models
+│   ├── data/             # Raw and processed data
+├── notebooks/            # Jupyter notebooks for EDA & model training
+├── images/               # Visual assets (plots, schema diagrams, etc.)
+├── scripts/              # Automation scripts
+├── README.md             # Documentation
+```
+
 ## 🚀 Installation & Setup  
 
 ### Prerequisites  
